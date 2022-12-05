@@ -26,7 +26,7 @@ void randomArrayGenerator(T* arr, int iSize) {
 
 template <typename T>
 void printArray(T* arr, int iSize) {
-    for(int i=0; i<iSize; i++) {
+    for (int i = 0; i < iSize; i++) {
         std::cout << arr[i] << " ";
     }
     std::cout << std::endl;
